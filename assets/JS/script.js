@@ -15,10 +15,11 @@ ele.addEventListener("click", function () {
   pintar(ele, "yellow");
 });
 
+// Evento para ir a la página siguiente
 anterior.addEventListener("click", function () {
   window.location.href = "index.html";
 });
-
+// Evento para ir a la página siguiente
 siguiente.addEventListener("click", function () {
   window.location.href = "4_colores.html";
 });

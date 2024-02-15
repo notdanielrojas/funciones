@@ -28,11 +28,11 @@ function cambiarColor(elemento) {
   elemento.style.backgroundColor = "black";
 }
 
-
+// Evento para ir a la página siguiente
 anterior.addEventListener("click", function () {
   window.location.href = "pintar.html";
 });
-
+// Evento para ir a la página siguiente
 siguiente.addEventListener("click", function () {
   window.location.href = "cuadrados.html";
 });

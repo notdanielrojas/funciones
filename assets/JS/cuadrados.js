@@ -1,3 +1,6 @@
+// Variable global para almacenar el color
+let color = "";
+
 // Función que se ejecuta cuando se presiona una tecla
 document.addEventListener("keydown", function (event) {
   // Verificar qué tecla se ha presionado y realizar acciones correspondientes
@@ -32,7 +35,6 @@ function agregarElemento(color) {
   nuevoElemento.style.height = "200px"; // Establecer la altura del nuevo div
   nuevoElemento.style.backgroundColor = color; // Establecer el color de fondo del nuevo div
   nuevoElemento.style.border = "2px solid black"; // Establecer el borde del nuevo div
-
   contenedor.appendChild(nuevoElemento); // Agregar el nuevo div al contenedor
 }
 
@@ -46,10 +48,11 @@ function eliminarElemento() {
   }
 }
 
+// Evento para volver a la página anterior
 anterior.addEventListener("click", function () {
   window.location.href = "4_colores.html";
 });
-
+// Evento para ir a la página siguiente
 siguiente.addEventListener("click", function () {
   window.location.href = "index.html";
 });
