@@ -1,10 +1,10 @@
 /* ---------------- Desafío 3.3 y 3.4 ---------------- */
 
 /* Obtener los elementos div por su id */
-const azul = document.getElementById("azul");
-const rojo = document.getElementById("rojo");
-const verde = document.getElementById("verde");
-const amarillo = document.getElementById("amarillo");
+let azul = document.getElementById("azul");
+let rojo = document.getElementById("rojo");
+let verde = document.getElementById("verde");
+let amarillo = document.getElementById("amarillo");
 
 /* Agregar event listener a cada div para cambiar el color al hacer clic */
 azul.addEventListener("click", function () {
