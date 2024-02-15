@@ -40,7 +40,7 @@ function agregarElemento(color) {
 function eliminarElemento() {
   let contenedor = document.getElementById("contenedor"); // Obtener el contenedor por su id
   let elementos = contenedor.querySelectorAll("div"); // Obtener todos los elementos div dentro del contenedor
-  if (elementos.length > 1) {
+  if (elementos.length > 2) {
     // Verificar si hay más de un div dentro del contenedor
     contenedor.removeChild(elementos[elementos.length - 1]); // Eliminar el último div agregado al contenedor
   }

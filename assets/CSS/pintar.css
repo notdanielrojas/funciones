@@ -6,14 +6,15 @@ body {
 
 #contenedor {
   display: flex;
-  flex-direction: column;
   width: 100%;
-  height: 100vh;
+  height: 50vh;
 }
+
 div {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+
   width: 500px;
 }
 
