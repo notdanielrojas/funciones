@@ -14,3 +14,12 @@ pintar(ele);
 ele.addEventListener("click", function () {
   pintar(ele, "yellow");
 });
+
+
+anterior.addEventListener("click", function () {
+  window.location.href = "index.html";
+});
+
+siguiente.addEventListener("click", function () {
+  window.location.href = "4_colores.html";
+});

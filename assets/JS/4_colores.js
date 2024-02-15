@@ -27,3 +27,12 @@ amarillo.addEventListener("click", function () {
 function cambiarColor(elemento) {
   elemento.style.backgroundColor = "black";
 }
+
+
+anterior.addEventListener("click", function () {
+  window.location.href = "pintar.html";
+});
+
+siguiente.addEventListener("click", function () {
+  window.location.href = "cuadrados.html";
+});

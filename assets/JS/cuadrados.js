@@ -45,3 +45,11 @@ function eliminarElemento() {
     contenedor.removeChild(elementos[elementos.length - 1]); // Eliminar el último div agregado al contenedor
   }
 }
+
+anterior.addEventListener("click", function () {
+  window.location.href = "4_colores.html";
+});
+
+siguiente.addEventListener("click", function () {
+  window.location.href = "index.html";
+});
